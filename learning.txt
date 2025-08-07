@@ -1,1 +1,3 @@
 we have to use import statement intead of require statement
+.d.ts file :- jha hm btate hai apni library ke types
+avoid always using @ts-ignore
