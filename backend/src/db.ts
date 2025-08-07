@@ -1,18 +1,9 @@
-import mongoose, { Schema } from "mongoose";
+import mongoose, { Model, Schema } from "mongoose";
 
 mongoose.connect("");
 
-
-
-const UserSchema=new mongoose.Schema({
+const UserSchema=new Schema({
 
 })
 
-const ContentSchema=new mongoose.Schema({
-
-})
-
-
-
- const UserModel=mongoose.model('User',UserSchema);
-  const ContentModel=mongoose.model('Content',ContentSchema);
+export const UserModel=new Model('User',UserSchema)
